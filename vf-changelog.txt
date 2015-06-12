@@ -1,0 +1,21 @@
+v3.0.2 October 17, 2013
+===================================================================
+fix for unable to duplicate product
+
+v3.0.1 October 14, 2013
+===================================================================
+Fixed upgrade script not running
+
+v3.0.0 October 13, 2013
+===================================================================
+Reduced memory usage issue on larger imports
+Performance Improvements
+Support for multiple "clear search" button/links
+Added ability to disable wheel/tire/adapter modules
+checked CSV as default format on import
+Added modman support
+Improvements to CLI tool
+Removed usages of '<?=' which aren't always available in < PHP 5.4
+Added integration to sync data with data.vehiclefits.com
+Removed need to hard code in app/Mage.php
+Fixed error when trying to delete a product

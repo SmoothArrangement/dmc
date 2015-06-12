@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<vehicles_index_index>
+		<reference name="content">
+			<block type="vehicles/vehicles" name="vehicles" template="vehicles/vehicles.phtml" />
+		</reference>
+	</vehicles_index_index>
+</layout>

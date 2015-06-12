@@ -1,0 +1,68 @@
+<?php
+/**
+ * PHP version 5
+ *
+ * @category  SinanInfo
+ * @package   SinanInfo_Import
+ * @author    SinanInfo Team <team@sinaninfo.com>
+ * @copyright 2015 SinanInfo Team (http://www.sinaninfo.com)
+ * @version   1.0.0
+ * @since     1.0.0
+ */
+?>
+<div id="statusProgress" style="display:none; position:fixed; background: #eee; padding: 5px 10px; bottom: 2%; right: 2%">
+    <span id="importCount" data-total="0">0</span> in <span id="importTotal"></span>
+</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+
+    function importProduct() {
+        new Ajax.Request("<?php echo $this->getAjaxCountImportUrl() ?>", {
+            method:     'get',
+            onSuccess: function(response){
+                var total = response.responseJSON[0]['count(*)'];
+                var elm = document.querySelector('#importTotal');
+                elm.innerHTML = total;
+            }
+        });
+        easyimport('<?php echo $this->getAjaxImportUrl() ?>');
+    }
+
+    function importCategory() {
+        new Ajax.Request("<?php echo $this->getAjaxCategoryImportUrl() ?>", {
+            method:     'get',
+            sync: false,
+            onSuccess: function(response){
+                console.log("Success");
+            }
+        });
+    }
+
+    function easyimport(url, offset) {
+        if (typeof offset == 'undefined') {
+            offset = 0;
+        }
+        new Ajax.Request(url, {
+            method:     'get',
+            parameters: {offset: offset},
+            sync: false,
+            onSuccess: function(response){
+                var loading = document.querySelector('#statusProgress');
+                loading.style.display = "block";
+                var status = document.querySelector('#importCount');
+                var current = parseInt(status.getAttribute('data-total'));
+                status.setAttribute('data-total',current + parseInt(response.responseJSON.more));
+                status.innerHTML = current + parseInt(response.responseJSON.more);
+                if (typeof response.responseJSON.stop == 'undefined' && response.responseJSON.error == false) {
+                    easyimport(url, response.responseJSON.offset);
+                    console.log(response.responseJSON);
+                }
+            }
+        });
+    }
+    //]]>
+</script>
+
+<?php echo $this->getProductImportButtonHtml() ?>
+<?php echo $this->getCategoryImportButtonHtml() ?>

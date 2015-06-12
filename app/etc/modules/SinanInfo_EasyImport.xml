@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SinanInfo_EasyImport>
+            <active>true</active>
+            <codePool>community</codePool>
+        </SinanInfo_EasyImport>
+    </modules>
+</config>

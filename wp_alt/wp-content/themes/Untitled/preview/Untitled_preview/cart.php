@@ -1,0 +1,1 @@
+<?php if (theme_get_selected_template('Shopping Cart') === 'shoppingCartTemplate') include(get_template_directory() . '/templates/cart_8.php'); ?>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>IntegerNet_RemoveCustomerAccountLinks</name>
+    <version>2.0.0.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Removes customer account links in Magento.</summary>
+    <description>Removes customer account links in Magento.</description>
+    <notes></notes>
+    <authors><author><name>integer_net GmbH</name><user>info</user><email>info@integer-net.de</email></author><author><name>Christian Philipp</name><user>cp</user><email>cp@integer-net.de</email></author><author><name>Viktor Franz</name><user>vf</user><email>vf@integer-net.de</email></author></authors>
+    <date>2014-01-12</date>
+    <time>13:10:22</time>
+    <contents><target name="magecommunity"><dir name="IntegerNet"><dir name="RemoveCustomerAccountLinks"><dir name="Block"><file name="Navigation.php" hash="e1c994104c837ea513ead2606c63c95a"/></dir><dir name="Helper"><file name="Data.php" hash="3cc8d7b9f8ffb63b6a34b9c587112636"/></dir><dir name="Model"><dir name="System"><dir name="Source"><file name="Link.php" hash="c0c53214a7b99890b6db983fb03edd01"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="725db225599f447c47ca4076b8a023ef"/><file name="system.xml" hash="fdcd317d86d1cd4367e5f82374a9cef2"/></dir><dir name="sql"><dir name="integernet_removecustomeraccountlinks_setup"><file name="mysql4-install-2.0.0.2.php" hash="c0b5150c2467941d0cebbe9440e0a544"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IntegerNet_RemoveCustomerAccountLinks.xml" hash="497d8b2b62fa8cd2627e247a1fae7d33"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="IntegerNet_RemoveCustomerAccountLinks.csv" hash="8a9f94506891df01291aca03e48a8ca2"/></dir><dir name="en_US"><file name="IntegerNet_RemoveCustomerAccountLinks.csv" hash="82eaf42f71469bfcd4ada4ddc5be9455"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.9.9</max></php></required></dependencies>
+</package>

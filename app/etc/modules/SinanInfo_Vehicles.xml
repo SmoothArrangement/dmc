@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SinanInfo_Vehicles>
+            <active>true</active>
+            <codePool>community</codePool>
+        </SinanInfo_Vehicles>
+    </modules>
+</config>

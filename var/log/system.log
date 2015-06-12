@@ -1,0 +1,1 @@
+2015-06-05T07:26:30+00:00 ERR (3): Notice: Undefined offset: 1  in /var/www/design-motorcycles/httpdocs/app/code/core/Mage/Core/Model/App.php on line 707

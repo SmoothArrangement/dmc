@@ -1,0 +1,1 @@
+<?php if (theme_get_selected_template('Product Overview') === 'productOverview') include(get_template_directory() . '/templates/product_overview_4.php'); ?>

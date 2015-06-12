@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SinanInfo_EasyImport>
+            <version>0.1.0</version>
+        </SinanInfo_EasyImport>
+    </modules>
+    <global>
+        <models>
+            <easyimport>
+                <class>SinanInfo_EasyImport_Model</class>
+                <resourceModel>easyimport_resource</resourceModel>
+            </easyimport>
+            
+            <easyimport_resource>
+                <class>SinanInfo_EasyImport_Model_Resource</class>
+                <entities>
+                    <importscript_product>
+                        <table>importscript_product</table>
+                    </importscript_product>
+                    <importscript_media>
+                        <table>importscript_media</table>
+                    </importscript_media>
+                    <importscript_urls>
+                        <table>importscript_urls</table>
+                    </importscript_urls>
+                    <importscript_tmp>
+                        <table>importscript_tmp</table>
+                    </importscript_tmp>
+                </entities>
+            </easyimport_resource>
+        </models>
+        <!-- <resources>
+            <easyimport_setup>
+                <setup>
+                    <module>SinanInfo_EasyImport</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+            </easyimport_setup>
+        </resources> -->
+        <helpers>
+            <easyimport>
+                <class>SinanInfo_EasyImport_Helper</class>
+            </easyimport>
+        </helpers>
+        <blocks>
+            <easyimport>
+                <class>SinanInfo_EasyImport_Block</class>
+            </easyimport>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <easyimport after="Mage_Adminhtml">SinanInfo_EasyImport</easyimport>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

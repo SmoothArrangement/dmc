@@ -1,0 +1,137 @@
+<?php
+    // app/design/frontend/ultimo/default/template/vehicles/vehicles.phtml
+?>
+<?php
+    $currentUrl = Mage::helper('core/url')->getCurrentUrl();
+    $collection = Mage::getModel('catalog/product')->getCollection()->addAttributeToSelect('*');
+    $collection->load();
+
+    $session = Mage::getModel('core/session');
+    $bike = $session->getData('bike');
+?>
+<div class="page-title">
+</div>
+<form action="<?php echo $this->getUrl('vehicles/index/search') ?>" method="get" id="search_form">
+    <div class="fieldset">
+        <ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                    <label for="manufacturer" class="required"><?php echo "Hersteller"; ?></label>
+                    <select name="manufacturer" id="manufacturer" onchange="filterOpt(this, 'model')">
+                        <?php
+                            if (!isset($bike['manufacturer'])) {
+                                echo '<option value="" selected>Bitte wählen Sie....</option>';
+                                $mans = array();
+                                foreach ($collection as $c) {
+                                    $mans[$c->getManufacturer()] = $c->getManufacturer();
+                                }
+                                unset($mans['universal']);
+                                foreach ($mans as $key=>$val) {
+                                    echo "<option value='" . $key . "'>" . $val . "</option>";
+                                }
+                            } else {
+                                 echo "<option value='" . $bike['manufacturer'] . "'>" . $bike['manufacturer'] . "</option>";
+                            }
+                            
+                        ?>
+                    </select>
+                </div>
+            </li>
+            <li class="fields">
+                <div class="field">
+                    <label for="model" class="required"><?php echo "Modell"; ?></label>
+                    <select name="model" id="model" onchange="filterOpt(this, 'year')" disabled>
+                        <?php
+                            if (!isset($bike['model'])) {
+                                echo '<option value="" selected>Bitte wählen Sie....</option>';
+                                $models = array();
+                                foreach ($collection as $c) {
+                                    if (empty($models[$c->getModel()])) {
+                                        $models[$c->getModel()] = array($c->getManufacturer());
+                                    } else {
+                                        $models[$c->getModel()][] = $c->getManufacturer();
+                                    }
+                                }
+                                unset($models['universal']);
+                                foreach($models as $mod => $man) {
+                                    echo "<option value='" . $mod . "' data-model='" . implode(array_unique($man) , '|') . "'>" . $mod . "</option>";
+                                }
+                            } else {
+                                echo "<option value='" . $bike['model'] . "' data-model='" . $bike['manufacturer'] . "'>" . $bike['model'] . "</option>";
+                            }
+                            
+                        ?>
+                    </select>
+                </div>
+            </li>
+            <li class="fields">
+                <div class="field">
+                    <label for="year" class="required"><?php echo "Baujahr"; ?></label>
+                    <select name="buildyear" id="year" disabled>
+                        <?php
+                            if (!isset($bike['buildyear'])) {
+                                echo '<option value="" selected>Bitte wählen Sie....</option>';
+                                $years = array();
+                                foreach ($collection as $c) {
+                                    if (empty($models[$c->getModel()])) {
+                                        $years[$c->getBuildyear()] = array($c->getModel());
+                                    } else {
+                                        $years[$c->getBuildyear()][] = $c->getModel();
+                                    }
+                                }
+                                unset($years['universal']);
+                                foreach ($years as $y => $m) {
+                                    echo "<option value='" . $y . "' data-model='" . implode(array_unique($m) , '|') . "'>" . $y . "</option>";
+                                }
+                            } else {
+                                echo "<option value='" . $bike['buildyear'] . "' data-model='" . $bike['model'] . "'>" . $bike['buildyear'] . "</option>";
+                            }
+                        ?>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="buttons-set">
+        <input type="hidden" name="callback" value="<?php echo $currentUrl ?>" />
+        <button type="submit" title="Search" class="button"><span><span>Filtern</span></span></button>
+        <a href="<?php echo $this->getUrl('vehicles/index/reset') . '?callback=' . $currentUrl ?>" class="button"><span><span>Reset</a>
+    </div>
+</form>
+
+<script type="text/javascript">
+    //<![CDATA[
+    vardataForm = new VarienForm('search_form', true);
+    //]]>
+</script>
+
+<script type="text/javascript">
+    function filterOpt(elm, type)
+    {
+        var val = elm.value;
+        var sel = document.getElementById(type);
+
+        if (val != '') {
+            sel.removeAttribute('disabled');
+        } else {
+            sel.setAttribute('disabled', 'disabled');
+            sel.value = '';
+            sel.onchange();
+        }
+        
+        if (val != ''){
+            var opts = document.querySelectorAll("[data-model]");
+            for (var i = 0; i < opts.length; i++) {
+                attr = opts[i].getAttribute('data-model');
+                attr = attr.split("|");
+                if (attr.indexOf(val) != -1) {
+                    opts[i].style.display = "block";    
+                } else {
+                    opts[i].style.display = "none";
+                }
+                
+            }
+        }
+        document.getElementById(type).selectedIndex = 0;
+    }
+</script>

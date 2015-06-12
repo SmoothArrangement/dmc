@@ -1,0 +1,2699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DHVC Form\n"
+"POT-Creation-Date: 2015-03-30 21:33+0700\n"
+"PO-Revision-Date: 2015-03-30 21:36+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;esc_html_e;_e;esc_attr_e;"
+"esc_attr__;esc_html__\n"
+"X-Poedit-Basepath: /Volumes/WORK/webserver/www/wordpress/wp-content/plugins\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: dhvc-form\n"
+"X-Poedit-SearchPathExcluded-0: dhvc-form/assets\n"
+
+#: dhvc-form/dhvc-form.php:183 dhvc-form/includes/admin.php:1273
+msgid "Forms"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:184 dhvc-form/includes/admin.php:1705
+msgid "Form"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:186
+msgid "Add Form"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:187
+msgid "Add New Form"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:188
+msgid "Edit"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:189 dhvc-form/includes/admin.php:1545
+#: dhvc-form/includes/shortcodes.php:345
+msgid "Edit Form"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:190
+msgid "New Form"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:191 dhvc-form/dhvc-form.php:192
+msgid "View Form"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:193
+msgid "Search Forms"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:194
+msgid "No Forms found"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:195
+msgid "No Forms found in trash"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:196
+msgid "Parent Form"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:198
+msgid "This is where you can add new form."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:412
+msgid "Dieses Feld ist erforderlich"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:413
+msgid "Please fix this field."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:414
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:415
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:416
+msgid "Please enter a valid date."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:417
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:418
+msgid "Please enter a valid number."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:419
+msgid "Please enter only digits."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:420
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:421
+msgid "Please enter the same value again."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:422
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:423
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:424
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:425
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:426
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:427
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:428
+msgid "Please use letters only (a-z or A-Z) in this field."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:429
+msgid ""
+"Please use only letters (a-z or A-Z) or numbers (0-9) only in this field. No "
+"spaces or other characters are allowed."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:430
+msgid ""
+"Please enter a valid URL. Protocol is required (http://, https:// or ftp://)"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:431
+msgid "Please enter a valid zip code. For example 90602 or 90602-1234."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:432
+msgid ""
+"Please enter a valid fax number. For example (123) 456-7890 or 123-456-7890."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:433
+msgid "Please make sure your passwords match."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:434
+msgid "Please select an option"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:435 dhvc-form/dhvc-form.php:436
+msgid "Please enter captcha words correctly"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:437
+msgid "Please enter a value with a valid extension."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:525
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/1gKaeh5\" "
+"target=\"_blank\">Visual Composer</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:933
+msgid "Not Subscribe to Mailchimp!"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:938
+msgid "Subscribe to Mailchimp Successful!"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:953
+msgid "Wrong Username or Password!"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:958
+msgid "Login Successful!"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:980
+msgid "Registration complete."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:986
+msgid "Not allow register in site."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:999
+msgid "Please enter a username."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1001
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1004
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1009
+msgid "Please type your email address."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1011
+msgid "The email address isn't correct."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1014
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1022
+msgid "Password must be 6 character long."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1024
+msgid "Not see password confirmation field."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1026
+msgid "Passwords do not match."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1039
+msgid "Couldn't register you... please contact the site administrator"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1078
+msgid "Password Reset. Please check your email."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1090
+msgid "Enter a username or e-mail address."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1094
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1106
+msgid "Invalid username or e-mail."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1121
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1138
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1140
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1141
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1142
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1152
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1159
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1159
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1172
+msgid "Afghanistan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1173
+msgid "Åland Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1174
+msgid "Albania"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1175
+msgid "Algeria"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1176
+msgid "Andorra"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1177
+msgid "Angola"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1178
+msgid "Anguilla"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1179
+msgid "Antarctica"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1180
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1181
+msgid "Argentina"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1182
+msgid "Armenia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1183
+msgid "Aruba"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1184
+msgid "Australia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1185
+msgid "Austria"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1186
+msgid "Azerbaijan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1187
+msgid "Bahamas"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1188
+msgid "Bahrain"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1189
+msgid "Bangladesh"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1190
+msgid "Barbados"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1191
+msgid "Belarus"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1192
+msgid "Belgium"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1193
+msgid "Belau"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1194
+msgid "Belize"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1195
+msgid "Benin"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1196
+msgid "Bermuda"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1197
+msgid "Bhutan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1198
+msgid "Bolivia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1199
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1200
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1201
+msgid "Botswana"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1202
+msgid "Bouvet Island"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1203
+msgid "Brazil"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1204
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1205
+msgid "British Virgin Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1206
+msgid "Brunei"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1207
+msgid "Bulgaria"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1208
+msgid "Burkina Faso"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1209
+msgid "Burundi"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1210
+msgid "Cambodia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1211
+msgid "Cameroon"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1212
+msgid "Canada"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1213
+msgid "Cape Verde"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1214
+msgid "Cayman Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1215
+msgid "Central African Republic"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1216
+msgid "Chad"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1217
+msgid "Chile"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1218
+msgid "China"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1219
+msgid "Christmas Island"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1220
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1221
+msgid "Colombia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1222
+msgid "Comoros"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1223
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1224
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1225
+msgid "Cook Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1226
+msgid "Costa Rica"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1227
+msgid "Croatia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1228
+msgid "Cuba"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1229
+msgid "CuraÇao"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1230
+msgid "Cyprus"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1231
+msgid "Czech Republic"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1232
+msgid "Denmark"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1233
+msgid "Djibouti"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1234
+msgid "Dominica"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1235
+msgid "Dominican Republic"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1236
+msgid "Ecuador"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1237
+msgid "Egypt"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1238
+msgid "El Salvador"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1239
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1240
+msgid "Eritrea"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1241
+msgid "Estonia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1242
+msgid "Ethiopia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1243
+msgid "Falkland Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1244
+msgid "Faroe Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1245
+msgid "Fiji"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1246
+msgid "Finland"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1247
+msgid "France"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1248
+msgid "French Guiana"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1249
+msgid "French Polynesia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1250
+msgid "French Southern Territories"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1251
+msgid "Gabon"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1252
+msgid "Gambia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1253
+msgid "Georgia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1254
+msgid "Germany"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1255
+msgid "Ghana"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1256
+msgid "Gibraltar"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1257
+msgid "Greece"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1258
+msgid "Greenland"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1259
+msgid "Grenada"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1260
+msgid "Guadeloupe"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1261
+msgid "Guatemala"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1262
+msgid "Guernsey"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1263
+msgid "Guinea"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1264
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1265
+msgid "Guyana"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1266
+msgid "Haiti"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1267
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1268
+msgid "Honduras"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1269
+msgid "Hong Kong"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1270
+msgid "Hungary"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1271
+msgid "Iceland"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1272
+msgid "India"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1273
+msgid "Indonesia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1274
+msgid "Iran"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1275
+msgid "Iraq"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1276
+msgid "Republic of Ireland"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1277
+msgid "Isle of Man"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1278
+msgid "Israel"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1279
+msgid "Italy"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1280
+msgid "Ivory Coast"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1281
+msgid "Jamaica"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1282
+msgid "Japan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1283
+msgid "Jersey"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1284
+msgid "Jordan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1285
+msgid "Kazakhstan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1286
+msgid "Kenya"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1287
+msgid "Kiribati"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1288
+msgid "Kuwait"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1289
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1290
+msgid "Laos"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1291
+msgid "Latvia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1292
+msgid "Lebanon"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1293
+msgid "Lesotho"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1294
+msgid "Liberia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1295
+msgid "Libya"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1296
+msgid "Liechtenstein"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1297
+msgid "Lithuania"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1298
+msgid "Luxembourg"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1299
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1300
+msgid "Macedonia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1301
+msgid "Madagascar"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1302
+msgid "Malawi"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1303
+msgid "Malaysia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1304
+msgid "Maldives"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1305
+msgid "Mali"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1306
+msgid "Malta"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1307
+msgid "Marshall Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1308
+msgid "Martinique"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1309
+msgid "Mauritania"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1310
+msgid "Mauritius"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1311
+msgid "Mayotte"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1312
+msgid "Mexico"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1313
+msgid "Micronesia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1314
+msgid "Moldova"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1315
+msgid "Monaco"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1316
+msgid "Mongolia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1317
+msgid "Montenegro"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1318
+msgid "Montserrat"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1319
+msgid "Morocco"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1320
+msgid "Mozambique"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1321
+msgid "Myanmar"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1322
+msgid "Namibia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1323
+msgid "Nauru"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1324
+msgid "Nepal"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1325
+msgid "Netherlands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1326
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1327
+msgid "New Caledonia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1328
+msgid "New Zealand"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1329
+msgid "Nicaragua"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1330
+msgid "Niger"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1331
+msgid "Nigeria"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1332
+msgid "Niue"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1333
+msgid "Norfolk Island"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1334
+msgid "North Korea"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1335
+msgid "Norway"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1336
+msgid "Oman"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1337
+msgid "Pakistan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1338
+msgid "Palestinian Territory"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1339
+msgid "Panama"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1340
+msgid "Papua New Guinea"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1341
+msgid "Paraguay"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1342
+msgid "Peru"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1343
+msgid "Philippines"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1344
+msgid "Pitcairn"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1345
+msgid "Poland"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1346
+msgid "Portugal"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1347
+msgid "Qatar"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1348
+msgid "Reunion"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1349
+msgid "Romania"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1350
+msgid "Russia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1351
+msgid "Rwanda"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1352
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1353
+msgid "Saint Helena"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1354
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1355
+msgid "Saint Lucia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1356
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1357
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1358
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1359
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1360
+msgid "San Marino"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1361
+msgid "São Tomé and Príncipe"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1362
+msgid "Saudi Arabia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1363
+msgid "Senegal"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1364
+msgid "Serbia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1365
+msgid "Seychelles"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1366
+msgid "Sierra Leone"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1367
+msgid "Singapore"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1368
+msgid "Slovakia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1369
+msgid "Slovenia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1370
+msgid "Solomon Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1371
+msgid "Somalia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1372
+msgid "South Africa"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1373
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1374
+msgid "South Korea"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1375
+msgid "South Sudan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1376
+msgid "Spain"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1377
+msgid "Sri Lanka"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1378
+msgid "Sudan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1379
+msgid "Suriname"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1380
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1381
+msgid "Swaziland"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1382
+msgid "Sweden"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1383
+msgid "Switzerland"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1384
+msgid "Syria"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1385
+msgid "Taiwan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1386
+msgid "Tajikistan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1387
+msgid "Tanzania"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1388
+msgid "Thailand"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1389
+msgid "Timor-Leste"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1390
+msgid "Togo"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1391
+msgid "Tokelau"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1392
+msgid "Tonga"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1393
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1394
+msgid "Tunisia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1395
+msgid "Turkey"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1396
+msgid "Turkmenistan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1397
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1398
+msgid "Tuvalu"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1399
+msgid "Uganda"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1400
+msgid "Ukraine"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1401
+msgid "United Arab Emirates"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1402
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1403
+msgid "United States (US)"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1404
+msgid "Uruguay"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1405
+msgid "Uzbekistan"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1406
+msgid "Vanuatu"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1407
+msgid "Vatican"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1408
+msgid "Venezuela"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1409
+msgid "Vietnam"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1410
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1411
+msgid "Western Sahara"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1412
+msgid "Western Samoa"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1413
+msgid "Yemen"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1414
+msgid "Zambia"
+msgstr ""
+
+#: dhvc-form/dhvc-form.php:1415
+msgid "Zimbabwe"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:53
+#, php-format
+msgid ""
+"Custom Login has been deactivated because it requires a WordPress version "
+"greater than 3.6. You are running <code>%s</code>"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:68 dhvc-form/includes/shortcodes.php:81
+msgid "If value this element"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:70 dhvc-form/includes/shortcodes.php:83
+msgid "equals"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:71 dhvc-form/includes/shortcodes.php:84
+msgid "is greater than"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:72 dhvc-form/includes/shortcodes.php:85
+msgid "is less than"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:73 dhvc-form/includes/shortcodes.php:86
+msgid "not empty"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:74 dhvc-form/includes/shortcodes.php:87
+msgid "is empty"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:78 dhvc-form/includes/admin.php:103
+#: dhvc-form/includes/shortcodes.php:91 dhvc-form/includes/shortcodes.php:150
+#: dhvc-form/includes/shortcodes.php:197
+msgid "Value"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:82 dhvc-form/includes/shortcodes.php:95
+msgid "Then"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:84 dhvc-form/includes/shortcodes.php:97
+msgid "Hide"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:85 dhvc-form/includes/shortcodes.php:98
+msgid "Show"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:89 dhvc-form/includes/shortcodes.php:102
+msgid "Element(s) name"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:93 dhvc-form/includes/admin.php:107
+#: dhvc-form/includes/admin.php:123 dhvc-form/includes/admin.php:133
+#: dhvc-form/includes/admin.php:1055 dhvc-form/includes/shortcodes.php:106
+#: dhvc-form/includes/shortcodes.php:154 dhvc-form/includes/shortcodes.php:217
+msgid "Remove"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:140
+msgid "Are your sure?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:173
+msgid "General settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:178
+msgid "Allowed Files Upload Types"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:179
+msgid ""
+"Which files are allowed in the attachments? (Separate the extensions by a "
+"comma)"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:183
+msgid "Date Format"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:188
+msgid "Time Format"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:190
+msgid "Documentation on date and time formatting"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:194
+msgid "Time picker step"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:206
+msgid "Datetime Picker Language"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:264
+msgid "Conditional Container Element"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:269
+msgid "Users page settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:273
+msgid "Login page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:278
+msgid "Logout redirect to page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:283
+msgid "Register page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:288
+msgid "Lost password page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:293
+msgid "Email settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:297
+msgid "Sender method"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:300
+msgid "PHP Mailer"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:301
+msgid "SMTP"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:306
+msgid "SMTP host"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:311
+msgid "SMTP port"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:315
+msgid "SMTP encryption"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:317 dhvc-form/includes/functions.php:320
+msgid "None"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:318
+msgid "TLS"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:319
+msgid "SSL"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:324
+msgid "SMTP username"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:328
+msgid "SMTP password"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:332
+msgid "reCaptcha settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:333
+msgid ""
+"In order to use the reCAPTCHA element in your form you must <a target="
+"\"_blank\" href=\"https://www.google.com/recaptcha\">sign up</a> for a free "
+"account to get your set of API keys."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:337
+msgid "Public key"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:341
+msgid "Private key"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:345
+msgid "MailChimp settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:349
+msgid "MailChimp API Key"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:350
+msgid ""
+"Enter your API Key. <a href=\"http://admin.mailchimp.com/account/api-key-"
+"popup\" target=\"_blank\">Get your API key</a>"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:354
+msgid "MailChimp List"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:355
+msgid "Nothing Found..."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:356
+msgid ""
+"After you add your MailChimp API Key above and save it this list will be "
+"populated."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:360
+msgid "Enable Double Opt-In"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:361
+msgid ""
+"Learn more about <a href='http://kb.mailchimp.com/article/how-does-confirmed-"
+"optin-or-double-optin-work' target='_blank'>Double Opt-in</a>."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:365
+msgid "Send Welcome Email"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:366
+msgid ""
+"If your Double Opt-in is false and this is true, MailChimp will send your "
+"lists Welcome Email if this subscribe succeeds - this will not fire if "
+"MailChimp ends up updating an existing subscriber. If Double Opt-in is true, "
+"this has no effect. Learn more about <a href='http://blog.mailchimp.com/"
+"sending-welcome-emails-with-mailchimp/' target='_blank'>Welcome Emails</a>."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:370
+msgid "Group Name"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:371
+msgid ""
+"Optional: Enter the name of the group. Learn more about <a href=\"http://"
+"mailchimp.com/features/groups/\" target=\"_blank\">Groups</a>"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:375
+msgid "Group"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:376
+msgid "Optional: Comma delimited list of interest groups to add the email to."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:380
+msgid "Replace Interests"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:381
+msgid ""
+"Whether MailChimp will replace the interest groups with the groups provided "
+"or add the provided groups to the member's interest groups."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:388
+msgid "General"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:392
+msgid "Save Submitted Form to Data ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:395
+msgid "If checked, the submitted form data will be saved to your database."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:399
+msgid "Use Form AJAX ? "
+msgstr ""
+
+#: dhvc-form/includes/admin.php:401
+msgid "You can not upload file if use form AJAX"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:406
+msgid "Action Type"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:409
+msgid "Default"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:410
+msgid "External URL"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:415
+msgid "Use form action"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:421
+msgid "Mailpoet subscribers to These Lists"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:427 dhvc-form/includes/admin.php:499
+msgid "Enter URL"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:430
+msgid "Enter a action URL."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:434
+msgid "Method"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:437 dhvc-form/includes/admin.php:478
+msgid "Post"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:438
+msgid "Get"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:443
+msgid "Successful submit settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:447
+msgid "On successful submit"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:450
+msgid "Display a message"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:451
+msgid "Redirect to another page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:456
+msgid "Message"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:460
+msgid ""
+"This is the text or HTML that is displayed when the form is successfully "
+"submitted"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:464
+msgid "Message Position"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:467
+msgid "Top"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:468
+msgid "Bottom"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:473
+msgid "Redirect to"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:477
+msgid "Page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:479
+msgid "Url"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:481
+msgid ""
+"When the form is successfully submitted you can redirect the user to post, "
+"page or URL."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:485
+msgid "Select page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:492
+msgid "Select post"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:505
+msgid "Notifications email settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:509
+msgid "Send form data via email ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:515 dhvc-form/includes/admin.php:584
+msgid "Sender Name"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:522
+msgid "Sender Email Type"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:526 dhvc-form/includes/admin.php:1047
+msgid "Email"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:527
+msgid "Email Field"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:533 dhvc-form/includes/admin.php:591
+msgid "Sender Email"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:540
+msgid "Sender Field"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:542 dhvc-form/includes/admin.php:600
+msgid ""
+"The form must have at least one Email Address element to use this feature."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:546 dhvc-form/includes/admin.php:598
+msgid "Recipients"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:550
+msgid "Add email address(es) which the submitted form data will be sent to."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:554 dhvc-form/includes/admin.php:604
+msgid "Email subject"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:557
+msgid "New form submission"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:561 dhvc-form/includes/admin.php:611
+msgid "Email body"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:564 dhvc-form/includes/admin.php:615
+msgid ""
+"Use the label [form_body] to insert the form data in the email body. To use "
+"form control in email. please enter form control variables "
+"<strong>[form_control_name]</strong> in email."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:568 dhvc-form/includes/admin.php:619
+msgid "Use HTML content type ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:574
+msgid "Autoreply email settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:578
+msgid "Send autoreply email ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:607
+msgid "Just Confirming"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:614
+msgid "This is just a confirmation message. We have received you reply."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:625
+msgid "Form popup settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:629
+msgid "Display the form in a popup ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:636
+msgid ""
+"Set data-toggle=\"dhvcformpopup\" on a controller element, like a button, "
+"along with a data-target=\"#dhvcformpopup-{form_ID}\" or href="
+"\"#dhvcformpopup-{form_ID}\" to target a specific form popup to toggle."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:640
+msgid "Show popup title ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:646
+msgid "Form popup width (px)"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:652
+msgid "Auto open popup ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:655
+msgid "If selected, form popup will auto open when load page."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:659
+msgid "Popup open delay (ms)"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:662
+msgid "Time delay for open popup."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:666
+msgid "Auto close popup ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:669
+msgid "If selected, form popup will auto close."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:673
+msgid "Popup close delay (ms)"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:676
+msgid "Time delay for close popup."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:680
+msgid "Only one time ?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:683
+msgid "If selected,form will opens only on the first visit your site."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:687
+msgid "Style settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:691
+msgid "Form layout"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:694
+msgid "Vertical"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:695
+msgid "Horizontal"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:700
+msgid "Input icon position"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:703
+msgid "Right"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:704
+msgid "Left"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:709
+msgid "Label Color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:714
+msgid "Input Placeholder Text Color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:719
+msgid "Input Height (example enter:40px)"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:724
+msgid "Input Background Color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:729
+msgid "Input Text Color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:734
+msgid "Input border color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:739
+msgid "Input border Size (example enter:1px)"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:744
+msgid "Input hover border color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:749
+msgid "Input focus border color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:754
+msgid "Button Height (example enter:40px)"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:760
+msgid "Button background color"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:765
+msgid "Additional Settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:766
+msgid "Trigger with form AJAX."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:808 dhvc-form/includes/admin.php:811
+#: dhvc-form/includes/admin.php:813
+msgid "Form updated."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:809
+msgid "Custom field updated."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:810
+msgid "Custom field deleted."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:812
+#, php-format
+msgid "Form restored to revision from %s"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:814
+msgid "Form saved."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:815
+msgid "Form submitted."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:816
+#, php-format
+msgid "Form scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:817
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:818
+msgid "Form draft updated."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:838
+msgid "Delete this item permanently"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:838 dhvc-form/includes/admin.php:898
+msgid "Delete Permanently"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:855 dhvc-form/includes/admin.php:1422
+msgid "ID"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:856
+msgid "Title"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:857
+msgid "Shortcode"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:885
+msgid "Form Actions"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:886
+msgid "Form Options"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:904
+msgid "Save Form"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:952
+msgid "Example:"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:952
+msgid "Launch form popup"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:958 dhvc-form/includes/admin.php:1009
+#: dhvc-form/includes/shortcodes.php:7 dhvc-form/includes/shortcodes.php:34
+msgid "Insert variable..."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1059 dhvc-form/includes/shortcodes.php:115
+#: dhvc-form/includes/shortcodes.php:163 dhvc-form/includes/shortcodes.php:226
+msgid "Add"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1274 dhvc-form/includes/admin.php:1428
+msgid "Entries"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1275 dhvc-form/includes/admin.php:1752
+msgid "Settings"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1302
+msgid "Go to the first page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1309
+msgid "Go to the previous page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1318
+msgid "Current page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1329
+msgid "Go to the next page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1336
+msgid "Go to the last page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1361 dhvc-form/includes/admin.php:1393
+#, php-format
+msgid "%s entry mask as read"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1368 dhvc-form/includes/admin.php:1399
+#, php-format
+msgid "%s entry mask as un-read"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1376 dhvc-form/includes/admin.php:1406
+#, php-format
+msgid "%s entry deleted"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1422 dhvc-form/includes/admin.php:1701
+#: dhvc-form/includes/map.php:471
+msgid "Date"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1422
+msgid "Form Name"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1438 dhvc-form/includes/admin.php:1459
+msgid "All"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1444 dhvc-form/includes/admin.php:1559
+msgid "Bulk Actions"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1445 dhvc-form/includes/admin.php:1537
+#: dhvc-form/includes/admin.php:1560
+msgid "Mark as read"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1446 dhvc-form/includes/admin.php:1539
+#: dhvc-form/includes/admin.php:1561
+msgid "Mark as unread"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1447 dhvc-form/includes/admin.php:1541
+#: dhvc-form/includes/admin.php:1562
+msgid "Delete"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1449 dhvc-form/includes/admin.php:1564
+msgid "Apply"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1461
+msgid "per page"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1468
+msgid "Filter by form to export:"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1470
+msgid "View all form"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1476
+msgid "Export"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1531 dhvc-form/includes/admin.php:1670
+#: dhvc-form/includes/admin.php:1702
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1535
+msgid "View this entry"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1535
+msgid "View"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1541
+msgid "Delete this entry"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1551
+msgid "No entries found."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1606
+#, php-format
+msgid "Entry \"%s\""
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1611 dhvc-form/includes/admin.php:1647
+#: dhvc-form/includes/admin.php:1696
+msgid "Click to toggle"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1612
+msgid "Submitted form data"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1634
+msgid "Click to download"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1648
+msgid "Notes"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1670
+msgid "added on"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1670
+msgid "Delete note"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1683
+msgid "Add Note"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1697
+msgid "Additional information"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1709
+msgid "Embed Url"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1714
+msgid "User"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1716
+msgid "View user profile"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1721
+msgid "IP Address"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1738 dhvc-form/includes/admin.php:1743
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1783
+msgid "Save Changes"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1861
+msgid "Unable to load MailChimp lists, check your API Key."
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1864
+msgid "You have not created any lists at MailChimp"
+msgstr ""
+
+#: dhvc-form/includes/admin.php:1866
+msgid "Select a list"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "English"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "Portuguese"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "French"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "German"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "Dutch"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "Russian"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "Spanish"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:771
+msgid "Turkish"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:797
+msgid "Site URL"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:798
+msgid "User IP"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:799
+msgid "User display name"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:800
+msgid "User email"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:801
+msgid "User login"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:802
+msgid "Form URL"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:803
+msgid "Form ID"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:804
+msgid "Form Title"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:805
+msgid "Post/page ID"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:806
+msgid "Post/page title"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:807
+msgid "Datetime submitted"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:813
+msgid "Date (only date)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:814
+msgid "Number (only number)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:815
+msgid ""
+"Digits (only number, avoid spaces or other characters such as dots or commas)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:816
+msgid "Alpha (only a-z or A-Z)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:817
+msgid "Alphanum (only a-z or A-Z or 0-9)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:818
+msgid "Url (only URL. Protocol is required: http://, https:// or ftp://)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:819
+msgid "Zip (example 90602 or 90602-1234)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:820
+msgid "Fax (example (123) 456-7890 or 123-456-7890)"
+msgstr ""
+
+#: dhvc-form/includes/functions.php:846
+msgid "Select a page..."
+msgstr ""
+
+#: dhvc-form/includes/map.php:22
+msgid "DHVC Form"
+msgstr ""
+
+#: dhvc-form/includes/map.php:29
+msgid "Form Text"
+msgstr ""
+
+#: dhvc-form/includes/map.php:31 dhvc-form/includes/map.php:122
+#: dhvc-form/includes/map.php:202 dhvc-form/includes/map.php:230
+#: dhvc-form/includes/map.php:308 dhvc-form/includes/map.php:352
+#: dhvc-form/includes/map.php:372 dhvc-form/includes/map.php:410
+#: dhvc-form/includes/map.php:462 dhvc-form/includes/map.php:537
+#: dhvc-form/includes/map.php:602 dhvc-form/includes/map.php:698
+#: dhvc-form/includes/map.php:759 dhvc-form/includes/map.php:806
+#: dhvc-form/includes/map.php:867 dhvc-form/includes/map.php:933
+#: dhvc-form/includes/map.php:994 dhvc-form/includes/map.php:1060
+msgid "Form Control"
+msgstr ""
+
+#: dhvc-form/includes/map.php:36 dhvc-form/includes/map.php:127
+#: dhvc-form/includes/map.php:245 dhvc-form/includes/map.php:313
+#: dhvc-form/includes/map.php:377 dhvc-form/includes/map.php:434
+#: dhvc-form/includes/map.php:477 dhvc-form/includes/map.php:542
+#: dhvc-form/includes/map.php:608 dhvc-form/includes/map.php:703
+#: dhvc-form/includes/map.php:764 dhvc-form/includes/map.php:811
+#: dhvc-form/includes/map.php:872 dhvc-form/includes/map.php:938
+#: dhvc-form/includes/map.php:999 dhvc-form/includes/map.php:1065
+#: dhvc-form/includes/shortcodes.php:194
+msgid "Label"
+msgstr ""
+
+#: dhvc-form/includes/map.php:42 dhvc-form/includes/map.php:133
+#: dhvc-form/includes/map.php:207 dhvc-form/includes/map.php:251
+#: dhvc-form/includes/map.php:319 dhvc-form/includes/map.php:357
+#: dhvc-form/includes/map.php:383 dhvc-form/includes/map.php:440
+#: dhvc-form/includes/map.php:483 dhvc-form/includes/map.php:548
+#: dhvc-form/includes/map.php:614 dhvc-form/includes/map.php:709
+#: dhvc-form/includes/map.php:770 dhvc-form/includes/map.php:817
+#: dhvc-form/includes/map.php:878 dhvc-form/includes/map.php:944
+#: dhvc-form/includes/map.php:1005
+msgid "Name"
+msgstr ""
+
+#: dhvc-form/includes/map.php:45 dhvc-form/includes/map.php:136
+#: dhvc-form/includes/map.php:210 dhvc-form/includes/map.php:254
+#: dhvc-form/includes/map.php:322 dhvc-form/includes/map.php:360
+#: dhvc-form/includes/map.php:386 dhvc-form/includes/map.php:443
+#: dhvc-form/includes/map.php:486 dhvc-form/includes/map.php:551
+#: dhvc-form/includes/map.php:617 dhvc-form/includes/map.php:712
+#: dhvc-form/includes/map.php:773 dhvc-form/includes/map.php:820
+#: dhvc-form/includes/map.php:881 dhvc-form/includes/map.php:947
+#: dhvc-form/includes/map.php:1008 dhvc-form/includes/map.php:1069
+msgid ""
+"Field name is required.  Please enter single word, no spaces. Underscores(_) "
+"allowed"
+msgstr ""
+
+#: dhvc-form/includes/map.php:49 dhvc-form/includes/map.php:140
+#: dhvc-form/includes/map.php:276 dhvc-form/includes/map.php:364
+#: dhvc-form/includes/map.php:555 dhvc-form/includes/map.php:1012
+msgid "Default value"
+msgstr ""
+
+#: dhvc-form/includes/map.php:54 dhvc-form/includes/map.php:145
+#: dhvc-form/includes/map.php:490
+msgid "Maximum length characters"
+msgstr ""
+
+#: dhvc-form/includes/map.php:59 dhvc-form/includes/map.php:150
+#: dhvc-form/includes/map.php:390 dhvc-form/includes/map.php:495
+#: dhvc-form/includes/map.php:560 dhvc-form/includes/map.php:639
+#: dhvc-form/includes/map.php:1017
+msgid "Placeholder text"
+msgstr ""
+
+#: dhvc-form/includes/map.php:64 dhvc-form/includes/map.php:155
+#: dhvc-form/includes/map.php:644
+msgid "Icon"
+msgstr ""
+
+#: dhvc-form/includes/map.php:68 dhvc-form/includes/map.php:159
+#: dhvc-form/includes/map.php:648
+msgid "Select icon add-on for this control."
+msgstr ""
+
+#: dhvc-form/includes/map.php:72 dhvc-form/includes/map.php:163
+#: dhvc-form/includes/map.php:281 dhvc-form/includes/map.php:331
+#: dhvc-form/includes/map.php:395 dhvc-form/includes/map.php:447
+#: dhvc-form/includes/map.php:500 dhvc-form/includes/map.php:565
+#: dhvc-form/includes/map.php:652 dhvc-form/includes/map.php:721
+#: dhvc-form/includes/map.php:777 dhvc-form/includes/map.php:830
+#: dhvc-form/includes/map.php:890 dhvc-form/includes/map.php:957
+#: dhvc-form/includes/map.php:1022
+msgid "Help text"
+msgstr ""
+
+#: dhvc-form/includes/map.php:74 dhvc-form/includes/map.php:165
+#: dhvc-form/includes/map.php:283 dhvc-form/includes/map.php:333
+#: dhvc-form/includes/map.php:397 dhvc-form/includes/map.php:449
+#: dhvc-form/includes/map.php:502 dhvc-form/includes/map.php:567
+#: dhvc-form/includes/map.php:654 dhvc-form/includes/map.php:723
+#: dhvc-form/includes/map.php:779 dhvc-form/includes/map.php:832
+#: dhvc-form/includes/map.php:892 dhvc-form/includes/map.php:959
+#: dhvc-form/includes/map.php:1024
+msgid "This is the help text for this form control."
+msgstr ""
+
+#: dhvc-form/includes/map.php:78 dhvc-form/includes/map.php:169
+#: dhvc-form/includes/map.php:506 dhvc-form/includes/map.php:571
+#: dhvc-form/includes/map.php:658 dhvc-form/includes/map.php:727
+#: dhvc-form/includes/map.php:783 dhvc-form/includes/map.php:836
+#: dhvc-form/includes/map.php:896 dhvc-form/includes/map.php:963
+#: dhvc-form/includes/map.php:1028
+msgid "Required ? "
+msgstr ""
+
+#: dhvc-form/includes/map.php:81 dhvc-form/includes/map.php:172
+#: dhvc-form/includes/map.php:509 dhvc-form/includes/map.php:517
+#: dhvc-form/includes/map.php:574 dhvc-form/includes/map.php:582
+#: dhvc-form/includes/map.php:624 dhvc-form/includes/map.php:661
+#: dhvc-form/includes/map.php:669 dhvc-form/includes/map.php:677
+#: dhvc-form/includes/map.php:730 dhvc-form/includes/map.php:738
+#: dhvc-form/includes/map.php:786 dhvc-form/includes/map.php:839
+#: dhvc-form/includes/map.php:847 dhvc-form/includes/map.php:899
+#: dhvc-form/includes/map.php:907 dhvc-form/includes/map.php:966
+#: dhvc-form/includes/map.php:974 dhvc-form/includes/map.php:1031
+#: dhvc-form/includes/map.php:1039
+msgid "Yes, please"
+msgstr ""
+
+#: dhvc-form/includes/map.php:86 dhvc-form/includes/map.php:177
+#: dhvc-form/includes/map.php:514 dhvc-form/includes/map.php:579
+#: dhvc-form/includes/map.php:666 dhvc-form/includes/map.php:1036
+msgid "Read only ? "
+msgstr ""
+
+#: dhvc-form/includes/map.php:89 dhvc-form/includes/map.php:180
+msgid "No"
+msgstr ""
+
+#: dhvc-form/includes/map.php:90 dhvc-form/includes/map.php:181
+msgid "Yes"
+msgstr ""
+
+#: dhvc-form/includes/map.php:95
+msgid "Add validator"
+msgstr ""
+
+#: dhvc-form/includes/map.php:106 dhvc-form/includes/map.php:186
+#: dhvc-form/includes/map.php:522 dhvc-form/includes/map.php:587
+#: dhvc-form/includes/map.php:682 dhvc-form/includes/map.php:791
+#: dhvc-form/includes/map.php:912 dhvc-form/includes/map.php:979
+#: dhvc-form/includes/map.php:1044
+msgid "Attributes"
+msgstr ""
+
+#: dhvc-form/includes/map.php:108 dhvc-form/includes/map.php:188
+#: dhvc-form/includes/map.php:524 dhvc-form/includes/map.php:589
+#: dhvc-form/includes/map.php:684 dhvc-form/includes/map.php:793
+#: dhvc-form/includes/map.php:914 dhvc-form/includes/map.php:981
+#: dhvc-form/includes/map.php:1046
+msgid ""
+"Add attribute for this form control,eg: <em>onclick=\"\" onchange=\"\" </em> "
+"or '<em>data-*</em>'  attributes HTML5, not in attributes: <span style="
+"\"color:#ff0000\">type, value, name, required, placeholder, maxlength, id</"
+"span>"
+msgstr ""
+
+#: dhvc-form/includes/map.php:113 dhvc-form/includes/map.php:193
+#: dhvc-form/includes/map.php:221 dhvc-form/includes/map.php:299
+#: dhvc-form/includes/map.php:343 dhvc-form/includes/map.php:401
+#: dhvc-form/includes/map.php:453 dhvc-form/includes/map.php:528
+#: dhvc-form/includes/map.php:593 dhvc-form/includes/map.php:688
+#: dhvc-form/includes/map.php:749 dhvc-form/includes/map.php:797
+#: dhvc-form/includes/map.php:858 dhvc-form/includes/map.php:924
+#: dhvc-form/includes/map.php:985 dhvc-form/includes/map.php:1050
+#: dhvc-form/includes/map.php:1073
+msgid "Extra class name"
+msgstr ""
+
+#: dhvc-form/includes/map.php:115 dhvc-form/includes/map.php:195
+#: dhvc-form/includes/map.php:223 dhvc-form/includes/map.php:301
+#: dhvc-form/includes/map.php:345 dhvc-form/includes/map.php:403
+#: dhvc-form/includes/map.php:455 dhvc-form/includes/map.php:530
+#: dhvc-form/includes/map.php:595 dhvc-form/includes/map.php:690
+#: dhvc-form/includes/map.php:751 dhvc-form/includes/map.php:799
+#: dhvc-form/includes/map.php:860 dhvc-form/includes/map.php:926
+#: dhvc-form/includes/map.php:987 dhvc-form/includes/map.php:1052
+#: dhvc-form/includes/map.php:1075
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: dhvc-form/includes/map.php:120
+msgid "Form Email"
+msgstr ""
+
+#: dhvc-form/includes/map.php:200
+msgid "Form Label"
+msgstr ""
+
+#: dhvc-form/includes/map.php:215
+msgid "Text"
+msgstr ""
+
+#: dhvc-form/includes/map.php:217
+msgid ""
+"<p>I am text block. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo.</p>"
+msgstr ""
+
+#: dhvc-form/includes/map.php:228
+msgid "Form Slider"
+msgstr ""
+
+#: dhvc-form/includes/map.php:235 dhvc-form/includes/map.php:467
+msgid "Type"
+msgstr ""
+
+#: dhvc-form/includes/map.php:238
+msgid "Slider"
+msgstr ""
+
+#: dhvc-form/includes/map.php:239
+msgid "Range"
+msgstr ""
+
+#: dhvc-form/includes/map.php:258
+msgid "Minimum Value"
+msgstr ""
+
+#: dhvc-form/includes/map.php:264
+msgid "Maximum Value"
+msgstr ""
+
+#: dhvc-form/includes/map.php:270
+msgid "Step"
+msgstr ""
+
+#: dhvc-form/includes/map.php:287 dhvc-form/includes/map.php:337
+#: dhvc-form/includes/map.php:743 dhvc-form/includes/map.php:852
+#: dhvc-form/includes/map.php:918
+msgid "Conditional Logic"
+msgstr ""
+
+#: dhvc-form/includes/map.php:295 dhvc-form/includes/map.php:339
+#: dhvc-form/includes/map.php:745 dhvc-form/includes/map.php:854
+#: dhvc-form/includes/map.php:920
+msgid ""
+"Create rules to show or hide this field depending on the values of other "
+"fields "
+msgstr ""
+
+#: dhvc-form/includes/map.php:306
+msgid "Form Rate"
+msgstr ""
+
+#: dhvc-form/includes/map.php:326 dhvc-form/includes/map.php:716
+#: dhvc-form/includes/map.php:824 dhvc-form/includes/map.php:885
+#: dhvc-form/includes/map.php:951
+msgid "Options"
+msgstr ""
+
+#: dhvc-form/includes/map.php:350
+msgid "Form Hidden"
+msgstr ""
+
+#: dhvc-form/includes/map.php:370
+msgid "Form Captcha"
+msgstr ""
+
+#: dhvc-form/includes/map.php:408
+msgid "Form reCaptcha"
+msgstr ""
+
+#: dhvc-form/includes/map.php:415
+msgid "Theme"
+msgstr ""
+
+#: dhvc-form/includes/map.php:418
+msgid "Red"
+msgstr ""
+
+#: dhvc-form/includes/map.php:419
+msgid "Clean"
+msgstr ""
+
+#: dhvc-form/includes/map.php:420
+msgid "White"
+msgstr ""
+
+#: dhvc-form/includes/map.php:421
+msgid "BlackGlass"
+msgstr ""
+
+#: dhvc-form/includes/map.php:423
+msgid "Defines which theme to use for reCAPTCHA."
+msgstr ""
+
+#: dhvc-form/includes/map.php:427
+msgid "Language"
+msgstr ""
+
+#: dhvc-form/includes/map.php:430
+msgid ""
+"Select the language you would like to use for the reCAPTCHA display from the "
+"available options."
+msgstr ""
+
+#: dhvc-form/includes/map.php:460
+msgid "Form DateTime"
+msgstr ""
+
+#: dhvc-form/includes/map.php:472
+msgid "Time"
+msgstr ""
+
+#: dhvc-form/includes/map.php:535
+msgid "Form Color"
+msgstr ""
+
+#: dhvc-form/includes/map.php:600
+msgid "Form Password"
+msgstr ""
+
+#: dhvc-form/includes/map.php:621
+msgid "Is confirmation ? "
+msgstr ""
+
+#: dhvc-form/includes/map.php:629
+msgid "Password field "
+msgstr ""
+
+#: dhvc-form/includes/map.php:635
+msgid "enter passwords field name to validate match"
+msgstr ""
+
+#: dhvc-form/includes/map.php:674
+msgid "Password validator ? "
+msgstr ""
+
+#: dhvc-form/includes/map.php:696
+msgid "Form Radio"
+msgstr ""
+
+#: dhvc-form/includes/map.php:735 dhvc-form/includes/map.php:844
+#: dhvc-form/includes/map.php:904 dhvc-form/includes/map.php:971
+msgid "Disabled ? "
+msgstr ""
+
+#: dhvc-form/includes/map.php:757
+msgid "Form File"
+msgstr ""
+
+#: dhvc-form/includes/map.php:804
+msgid "Form Checkboxes"
+msgstr ""
+
+#: dhvc-form/includes/map.php:865
+msgid "Form Select"
+msgstr ""
+
+#: dhvc-form/includes/map.php:931
+msgid "Form Multiple Select"
+msgstr ""
+
+#: dhvc-form/includes/map.php:992
+msgid "Form Textarea"
+msgstr ""
+
+#: dhvc-form/includes/map.php:1058
+msgid "Form Button Submit"
+msgstr ""
+
+#: dhvc-form/includes/map.php:1067 dhvc-form/includes/shortcodes.php:312
+#: dhvc-form/templates/dhvc_form_submit_button.php:5
+msgid "Submit"
+msgstr ""
+
+#: dhvc-form/includes/shortcodes.php:56
+msgid "Select validator..."
+msgstr ""
+
+#: dhvc-form/includes/shortcodes.php:191
+msgid "Is Default"
+msgstr ""
+
+#: dhvc-form/includes/shortcodes.php:247 dhvc-form/includes/shortcodes.php:327
+msgid "No form yet! You should add some..."
+msgstr ""
+
+#: dhvc-form/includes/shortcodes.php:381
+msgid "Field name is required"
+msgstr ""
+
+#: dhvc-form/includes/shortcodes.php:411
+msgid "Passwords field name to validate match is required"
+msgstr ""
+
+#: dhvc-form/includes/shortcodes.php:425
+msgid ""
+"ReCaptcha plugin needs a public key to be set in its parameters. Please "
+"contact a site administrator."
+msgstr ""
+
+#: dhvc-form/templates/dhvc_form_file.php:30
+msgid "Browse"
+msgstr ""

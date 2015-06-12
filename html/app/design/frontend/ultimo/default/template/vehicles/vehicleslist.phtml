@@ -1,0 +1,47 @@
+<div class="page-title">
+    <h1><?php echo 'Search Results'; ?></h1>
+</div>
+
+<?php
+	$params = $this->getRequest()->getParams();
+	if ( !isset($params) ) {
+		die('Unauthorized access.');
+	}
+	
+	$collection = Mage::getModel('catalog/product')->getCollection()->addAttributeToSelect('*');
+	if ($params['manufacturer'] != '')
+	{
+		$collection->addAttributeToFilter('manufacturer', $params['manufacturer']);
+	}
+	if ($params['model'] != '')
+	{
+		$collection->addAttributeToFilter('model', $params['model']);
+	}
+	if ($params['buildyear'] != '')
+	{
+		$collection->addAttributeToFilter('buildyear', $params['buildyear']);
+	}
+	$collection->load();
+?>
+
+<table>
+	<tr>
+    	<td>SKU
+	</td>
+        <td>Manufacturer</td>
+        <td>Model</td>
+        <td>Price</td>
+        <td>Build Year</td>
+        <td>Short Description</td>
+    </tr>
+<?php foreach ($collection as $product){ ?>
+		<tr>
+        	<td><?php echo $product->getSKU(); ?></td>
+            <td><?php echo $product->getAttributeText('manufacturer'); ?></td>
+            <td><?php echo $product->getModel(); ?></td>
+            <td><?php echo $product->getPrice(); ?></td>
+            <td><?php echo $product->getBuildyear(); ?></td>
+            <td><?php echo $product->getShortDescription(); ?></td>
+        </tr>
+<?php } ?>
+</table>

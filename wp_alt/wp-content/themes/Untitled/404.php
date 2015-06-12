@@ -1,0 +1,1 @@
+<?php if (theme_get_selected_template('404') === 'template404') include('templates/404_9.php'); ?>

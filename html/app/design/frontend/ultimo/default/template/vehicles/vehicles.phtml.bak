@@ -1,0 +1,105 @@
+<div class="page-title">
+    <h1><?php echo 'Fahrzeug Filter'; ?></h1>
+</div>
+
+<?php
+	$collection = Mage::getModel('catalog/product')->getCollection()->addAttributeToSelect('*');
+	$collection->load();
+	
+	
+?>
+<form action="<?php echo $this->getUrl('vehicles/index/search') ?>" method="get" id="search_form">
+	<div class="fieldset">
+		<ul class="form-list">
+			<li class="fields">
+				<div class="field">
+					<label for="manufacturer" class="required"><?php echo "Hersteller"; ?></label>
+                    <select name="manufacturer" id="manufacturer" onchange="changeManu(this.value)">
+                    	<option value='' selected>Alle</option>
+                    	<?php
+							$mans = array();
+							foreach($collection as $c) {
+								if ($c->getManufacturer() > 0)
+								{
+									$mans[$c->getManufacturer()] = $c->getAttributeText('manufacturer');
+									
+								}
+							}
+							foreach ($mans as $key=>$val)
+							{
+								echo "<option value='".$key."'>".$val."</option>";
+							}
+						?>
+                    </select>
+                </div>
+            </li>
+            <li class="fields">
+				<div class="field">
+					<label for="model" class="required"><?php echo "Modell"; ?></label>
+                    <select name="model" id="model">
+                    	<option value='' selected>Alle</option>
+                    	<?php
+							$models = array();
+							foreach($collection as $c) {
+								$models[$c->getModel()] = $c->getManufacturer();
+							}
+							foreach($models as $mod=>$man) {
+								echo "<option value='".$mod."' class='model".$man."'>".$mod."</option>";
+							}
+						?>
+                    </select>
+                </div>
+            </li>
+            <li class="fields">
+				<div class="field">
+					<label for="year" class="required"><?php echo "Baujahr"; ?></label>
+                    <select name="buildyear" id="year">
+                    	<option value='' selected>Alle</option>
+                    	<?php
+							$years = array();
+							foreach($collection as $c) {
+								$years[$c->getBuildyear()] = $c->getBuildyear();
+							}
+							
+							foreach($years as $y) {
+								echo "<option value='".$y."'>".$y."</option>";
+							}
+						?>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="buttons-set">
+        <button type="submit" title="Search" class="button"><span><span>Suchen</span></span></button>
+    </div>
+</form>
+
+<script type="text/javascript">
+	//<![CDATA[
+	vardataForm = new VarienForm('search_form', true);
+	//]]>
+</script>
+
+<script type="text/javascript">
+	function changeManu(val)
+	{
+		var sel = document.getElementById("model");
+		for (var i = 1;i < sel.options.length; i ++)
+		{
+			if (val != '')
+				sel.options[i].style.display = "none";
+			else
+				sel.options[i].style.display = "block";
+		}
+
+		if (val != ''){
+			var elements = document.getElementsByClassName("model" + val);
+	
+			for (var i = 0; i < elements.length; i++) {
+				elements[i].style.display = "block";
+			}
+		}
+		document.getElementById("model").selectedIndex = 0;
+	}
+</script>

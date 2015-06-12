@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<sinaninfo translate="label" module="easyimport">
+			<label>Sinan Info</label>
+			<sort_order>20</sort_order>
+		</sinaninfo>
+	</tabs>
+	<sections>
+		<sinaninfo translate="label" module="easyimport">
+			<label>General</label>
+			<tab>sinaninfo</tab>
+			<sort_order>1</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<general translate="label comment">
+					<label>Import Options</label>
+					<sort_order>50</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<comment><![CDATA[This is a <strong>import function</strong> use to import product from importscript_* table]]></comment>
+					<fields>
+						<import translate="label">
+							<label>Import Data</label>
+							<frontend_type>button</frontend_type>
+							<frontend_model>easyimport/adminhtml_system_config_form_button</frontend_model>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</import>
+					</fields>
+				</general>
+			</groups>
+		</sinaninfo>
+	</sections>
+</config>
